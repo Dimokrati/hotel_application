@@ -1,0 +1,397 @@
+*{
+      box-sizing: border-box;
+}
+
+
+.bgr_img{
+      z-index: -1;
+
+      -webkit-filter: blur(5px);
+      filter: blur(1px);
+      
+}
+
+.img_container{
+      position: relative;
+      overflow: hidden;
+}
+
+
+
+.find_container{
+      position: absolute;
+      bottom: 0px;
+      padding: 0 80px;
+      box-shadow: 0px 0px 3px #1c1c1c ;
+      
+}
+
+.contact_btn{
+      position: fixed;
+      top: 130px;
+      right: -125px;
+      box-shadow: 1px 1px 10px black;
+}
+
+.map_btn{
+      position: fixed;
+      top: 180px;
+      right: -125px;
+      box-shadow: 1px 1px 10px black;
+}
+
+.reserve_btn{
+      position: fixed;
+      top: 80px;
+      right: -125px;
+      box-shadow: 1px 1px 10px black;
+}
+
+
+.mail_icon{
+      margin-right:18px;
+}
+
+.map_icon{
+      margin-right: 24px;
+}
+
+.reserve_icon{
+      margin-right: 5px;
+}
+
+.contact_btn:hover{
+      right: 10px;
+      box-shadow: 1px 1px 10px black;
+}
+
+.reserve_btn:hover{
+      right: 10px;
+      box-shadow: 1px 1px 10px black;
+}
+
+.map_btn:hover{
+      right: 10px;
+      box-shadow: 1px 1px 10px black;
+}
+
+.small_reserve_btn{
+      position: fixed;
+      top: 65px;
+      right: 8px;
+      box-shadow: 1px 1px 7px black;
+}
+
+.small_contact_btn{
+      position: fixed;
+      top: 115px;
+      right: 8px;
+      box-shadow: 1px 1px 7px black;
+}
+
+.small_map_btn{
+      position: fixed;
+      top: 165px;
+      right: 8px;
+      box-shadow: 1px 1px 7px black;
+}
+
+.subtitle{
+      text-shadow: 0px 0px 5px #228be6;
+}
+
+.explore_btn_container{
+      box-shadow: 0px 0px 7px black;
+      border:2px solid #228be6;
+      /*background-color: #228be6;*/
+      color:white;
+      display: flex;   
+      justify-content: center;
+      align-items: center;
+      
+}
+
+.explore_text{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 110px;
+      
+      
+}
+
+
+
+
+
+.explore_links{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 30px;
+      box-shadow: 0px 0px 6px white;
+      border-radius: 15px;
+      width: 140px;
+}
+
+.arrow_down{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      margin-bottom: 30px;
+
+      
+}
+
+.grid_main_page{
+      display: flex;
+      justify-content: center;
+      
+}
+
+.description-1{
+      display: flex;
+      justify-content: center;
+}
+
+.description-1-animation{
+      animation: moveToLeft 1s ease-in-out;
+      animation-delay: 9ms;
+}
+
+@keyframes moveToLeft {
+      0% {
+          transform: translateX(300px);
+      }
+      100% {
+          transform: translateX(0px);
+      }
+  }
+
+.heading-1{
+      letter-spacing: -3px;
+}
+
+.description-2{
+      display: flex;
+      justify-content: center;
+      
+}
+
+.description-2-animation{
+      animation: moveToRight 1s ease-in-out;
+      animation-delay: 9ms;
+}
+
+@keyframes moveToRight {
+      0% {
+          transform: translateX(-300px);
+      }
+      100% {
+          transform: translateX(0px);
+      }
+  }
+
+
+  .description-3{
+      display: flex;
+      justify-content: center;
+}
+
+.description-3-animation{
+      animation: moveToLeft 1s ease-in-out;
+      animation-delay: 9ms;
+}
+
+.content{
+    
+      display: flex;
+      align-items: center;
+}
+
+.h1 {
+      color: #333;
+      font-family: Roboto;
+      font-size: 3rem;
+      font-weight: 100;
+      z-index: -1;
+      line-height: 1.5;
+      text-transform: uppercase;
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+      width: 550px;
+    }
+    
+    h1 span {
+      font-size: 45px;
+      margin-left: 55px;
+    }
+    
+    .message {
+      background-color: #228be6;
+      color: white;
+      display: block;
+      font-weight: 900;
+      overflow: hidden;
+      position: absolute;
+      padding-left: 0.5rem;
+      z-index: -1;
+      top: 0.2rem;
+      left: 300px;
+      animation: openclose 5s ease-in-out infinite;
+    }
+    
+    .word1, .word2, .word3 {
+      font-family: roboto;
+    }
+    
+    @keyframes openclose {
+      0% {
+        top: 0.2rem;
+        width: 0;
+      }
+      5% {
+        width: 0;
+      }
+      15% {
+        width: 174px;
+      }
+      30% {
+        top: 0.2rem;
+        width: 174px;
+      }
+      33% {
+        top: 0.2rem;
+        width: 0;
+      }
+      35% {
+        top: 0.2rem;
+        width: 0;
+      }
+      38% {
+        top: -4.5rem;
+        
+      }
+      48% {
+        top: -4.5rem;
+        width: 157px;
+      }
+      62% {
+        top: -4.5rem;
+        width: 157px;
+      }
+      66% {
+        top: -4.5rem;
+        width: 0;
+        text-indent: 0;
+      }
+      71% {
+        top: -9rem;
+        width: 0;
+        text-indent: 5px;
+      }
+      86% {
+        top: -9rem;
+        width: 165px;
+      }
+      95% {
+        top: -9rem;
+        width: 165px;
+      }
+      98% {
+        top: -9rem;
+        width: 0;
+        text-indent: 5px;
+      }
+      100% {
+        top: 0;
+        width: 0;
+        text-indent: 0;
+      }
+    }
+
+.text-topage{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+}
+
+.content_animation{
+      animation: moveToTop 1s ease-in-out;
+      animation-delay: 9ms;
+}
+
+@keyframes moveToTop {
+      0% {
+          transform: translateY(150px);
+      }
+      100% {
+          transform: translateY(0px);
+      }
+  }
+
+
+  .seemore{
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+
+.sideshow_container{
+      z-index: -1;
+}
+
+.grid_centre{
+      display: flex;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden;
+}
+
+
+.about_description_3_animation{
+      animation: moveToLeft 1s ease-in-out;
+      animation-delay: 9ms;
+}
+
+
+
+.about_centre{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+}
+
+.about_text{
+      border-bottom: #228be6 2px solid;
+      letter-spacing: -3px;
+}
+
+.about_description_2_animation{
+      animation: moveToTop 1s ease-in-out;
+      animation-delay: 9ms;
+}
+
+.footer{
+      box-shadow: 0px 0px 8px gray ;
+      
+}
+
+/* RESERVATION CSS */
+
+.formfiled{
+      letter-spacing: -1px;
+}
+
+.links{
+      text-decoration: none;
+      font-family: roboto;
+      font-size: medium;
+      color: #777777;
+      font-weight: 500;
+}
